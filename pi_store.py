@@ -12,10 +12,8 @@ class Store(Gtk.Window):
 	def __init__(self):
 		Gtk.Window.__init__(self, title="Pi Store")
 		self.set_border_width(10)
-
 		vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
 		self.add(vbox)
-		
 		#Web view
 		self.webview = WebKit.WebView()
 		self.webview.show()

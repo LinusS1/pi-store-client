@@ -12,8 +12,4 @@ def startDownload(download):
 	r = requests.get(download.get_uri())
 	with open(path,'wb') as f:
 		f.write(r.content)
-	print(4)	
-	time.sleep(1000)
-	print(6)
-	
 	# Next!
