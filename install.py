@@ -1,7 +1,6 @@
 """Download and install part for the client."""
 #IMPORTS
 import requests
-import time
 
 def startInstall():
 	pass
